@@ -45,8 +45,9 @@ foreach ($data as $value) {
                             href="index.php?controller=thanhvien&action=delete&id=<?php echo $value['id']?>">Xóa</a></button>
                 </td>
             </tr>
-            <?php }
-$stt++;
+            <?php
+             $stt++;
+            }
 ?>
         </tbody>
     </table>

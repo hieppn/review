@@ -81,3 +81,16 @@
     margin-top: 60px;
     width: 800px;
 }
+ .btthanhvien{
+     margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    font-size: 18px;
+    border: none;
+    border-radius: 20%;
+}
+a{
+    color: black;
+    
+}

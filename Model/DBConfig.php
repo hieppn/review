@@ -1,4 +1,5 @@
 <?php
+//session_start();
 class Database{
 	private $hostname='localhost';
 	private $username='root';
@@ -23,11 +24,6 @@ class Database{
 		$this->result=$this->conn->query($sql);
 		return $this->result;
 	}
-	// public function execute(){
-	// 	$sql ="SELECT * FROM"
-	// 	$this->result=$this->conn->query($sql);
-	// 	return $this->result;
-	// }
 	public function getData(){
 		if($this->result){
 			$data= mysqli_fetch_array($this->result);
@@ -47,9 +43,13 @@ public function num_rows(){
 	}
 	return $num;
 }
+
+	
 	public function getAllData($table){
 		$sql ="SELECT * FROM $table";
 		$this->execute($sql);
+		$sltv=$this->num_rows();
+		$_SESSION['sltv']= $sltv;
 		if($this->num_rows()==0){
 			$data=0;
 		}

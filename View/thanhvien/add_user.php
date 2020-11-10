@@ -37,9 +37,9 @@
             <?php
     if(isset($thanhcong) && in_array('add_success',$thanhcong)){
         echo "<script type='text/javascript'>alert('Thêm thành viên mới thành công.');</script>";
-    //     echo '<script type="text/javascript">
-    //        window.location = "index.php?controller=thanhvien&action=list"
-    //   </script>';
+        echo '<script type="text/javascript">
+           window.location = "index.php?controller=thanhvien&action=list"
+      </script>';
     }
     
     ?>

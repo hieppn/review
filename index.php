@@ -1,3 +1,6 @@
+<?php  
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +11,15 @@
 </head>
 
 <body>
+    <a href="index.php?controller=thanhvien&action=list"><button class="btthanhvien">Thành viên
+            <span style='front-size:20px'>
+                <?php 
+    	if (isset($_SESSION['sltv'])) {
+			echo $_SESSION['sltv'];
+		}
+  ?>
+            </span>
+        </button></a>
 
 </body>
 
