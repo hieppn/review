@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    width: 400px;
+    margin: 0px auto;
+
+}
+.dangkithanhvien{
+    width: 400px;
+    border: 1px solid #ccc;
+    margin-top: 80px;
+}
+.dangkithanhvien h4{
+    background-color: aquamarine;
+    padding: 5px;
+    color: brown;
+    text-align: center;
+}
+.dangkithanhvien form table tr td{
+    padding: 5px;
+}
+.dangkithanhvien form table tr td input{
+    padding: 3px 5px;
+}
+.list{
+    background: blanchedalmond;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.danhsach{
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+}
+.danhsach table{
+    border: 1px solid #999999;
+    width: 800px;
+}
+.danhsach table td{
+    text-align:right;
+}
+.danhsach table .action {
+    width: 100px;
+    padding: 3px;
+}
+.danhsach h3{
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    padding: 5px;
+}
+.btn_edit{
+    background-color: yellow;
+    color: black;
+}
+.btn_edit a{
+    margin: auto;
+    padding: 5px;
+    color: black;
+}
+.btn_delete{
+    float: right;
+    background-color: red;
+    color: black;
+    margin-left: 10px;
+}
+.btn_delete a{
+    margin: auto;
+    padding: 5px;
+    color: black;
+}
+.add_user{
+    background-color: cadetblue;
+    font-size: 15px;
+}
+.timkiem{
+    margin: auto;
+    margin-top: 60px;
+    width: 800px;
+}
